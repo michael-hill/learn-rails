@@ -50,5 +50,15 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+# learn-rails
+gem 'bootstrap-sass'
+gem 'gibbon'
+gem 'high_voltage'
+gem 'jquery-rails'
+group :development do
+  gem 'better_errors'
+  gem 'rails_layout'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
